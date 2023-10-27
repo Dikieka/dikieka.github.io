@@ -104,6 +104,7 @@ section {
 
 .img1 {
     margin-right: 50px;
+    justify-content: center;
 }
 
 .kolom {
@@ -286,7 +287,7 @@ h3 {
     }
 
     .kartu-sosmed img{
-        width: 50%;
+        width: 20%;
         display: flex;
     }
 
