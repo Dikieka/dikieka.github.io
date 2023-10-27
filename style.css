@@ -39,6 +39,7 @@ table{
     border-collapse: collapse;
     color: #444;
     justify-content: center;
+    position: relative;
 }
 
 table th,
