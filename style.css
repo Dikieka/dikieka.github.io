@@ -23,16 +23,19 @@ body {
 }
 
 .logo a {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     float: left;
-    font-family: courier;
+    font-family: DotLirium;
     color: #618264;
 }
 
-h3 {
+.spesifikasi h3 {
     text-align: center;
-    margin-left: 40px;
+    margin-left: auto;
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
 }
 
 table{
@@ -47,7 +50,9 @@ table td{
     border: 1px solid #edebeb;
     padding: 7px 17px;
     text-align: center;
-    font-family: 'consolas';
+    font-family: consolas;
+    justify-content: center;
+    position: relative;
 }
 .menu {
     float: right;
@@ -83,7 +88,7 @@ nav ul li a {
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
-    font-family: 'consolas';
+    font-family: consolas;
 }
 
 nav ul li a:hover {
@@ -116,7 +121,7 @@ section {
 h2 {
     font-family: 'comic sans ms';
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #618264;
     width: 100%;
@@ -127,7 +132,7 @@ h4 {
     justify-content: center;
     font-family: 'comic sans ms';
     font-weight: 600;
-    font-size: 26px;
+    font-size: 20px;
     color: #618264;
     width: 100%;
     line-height: 50px;
@@ -166,7 +171,7 @@ a.tbl-cyan:hover {
 p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
-    font-family: 'consolas';
+    font-family: consolas;
 }
 
 .tengah {
@@ -194,7 +199,6 @@ p {
 
 .kartu-social {
     width: 20%;
-    margin: 50px;
 }
 
 .kartu-social img {
@@ -242,7 +246,9 @@ h3 {
     margin-top: 50px;
 }
 
+
 @media screen and (max-width: 991.98px){
+
     .wrapper {
        width: 90%; 
     }
@@ -279,12 +285,9 @@ h3 {
         height: auto;
     }
 
-    .kartu-tutor img{
+    .kartu-sosmed img{
         width: 50%;
-    }
-
-    .kartu-partner img{
-        width: 50%;
+        display: flex;
     }
 
     .kolom {
