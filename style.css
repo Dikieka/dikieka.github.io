@@ -293,6 +293,7 @@ h3 {
 
     table {
         justify-content: center;
+        position: relative;
     }
 
 }
