@@ -60,7 +60,7 @@ nav {
    position: sticky;
    position: -webkit-sticky;
    top: 0;
-   background: #D0E7D2; 
+   background: #ffffff; 
    z-index: 1;
 }
 
@@ -76,12 +76,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     font-weight: bold;
+    width: 300px;
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
-    font-family: 'comic sans ms';
+    font-family: 'consolas';
 }
 
 nav ul li a:hover {
@@ -131,17 +132,17 @@ h4 {
     line-height: 50px;
 }
 
-a.tbl-hijau {
+a.tbl-sosmed {
     background: #618264;
     border-radius: 20px;
-    margin-top: 20px;
-    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
     color: #FFF;
     cursor: pointer;
     font-weight: bold;
 }
 
-a.tbl-hijau:hover {
+a.tbl-sosmed:hover {
     background: #D0E7D2;
     text-decoration: none;
 }
@@ -177,7 +178,7 @@ p {
 .kartu-social p {
     font-family: 'comic sans ms';
     font-weight: 800;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
     color: #618264;
 }
@@ -192,12 +193,13 @@ p {
 
 .kartu-social {
     width: 20%;
-    margin: 0px;
+    margin: 50px;
 }
 
 .kartu-social img {
-    width: 80px;
-    margin: 0px 0px 0px 0px;
+    width: 70px;
+    justify-content: center;
+    margin: auto;
 }       
 
 #contact {
@@ -218,10 +220,14 @@ p {
     margin:  0 auto;
 }
 
+.footer-section p {
+    font-size: 12px;
+}
+
 h3 {
     font-family: 'comic sans ms';
     font-weight: 800;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
     color: #618264;
     width: 100%;
