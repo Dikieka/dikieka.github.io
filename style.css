@@ -331,9 +331,10 @@ h3 {
 }
 
 @font-face {
-    font-family: 'DotLirium','LeagueSpartan-Bold';
-    src: url('fonts/DotLirium') format('ttf'),
-         url('fonts/LeagueSpartan-Bold') format('otf');
+    font-family: 'DotLirium';
+    font-family: 'LeagueSpartan-Bold';
+    src: url('fonts/DotLirium.ttf') format('truetype');
+    src: url('fonts/LeagueSpartan-Bold.otf') format('opentype');
 }
 
 @media screen and (max-width: 991.98px){
